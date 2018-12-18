@@ -9,8 +9,8 @@
 
 # Intellij
 #*.iml
-.idea/*
-.idea/*/*
+#.idea/*
+#.idea/*/*
 out/
 
 # Mobile Tools for Java (J2ME)
