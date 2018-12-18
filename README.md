@@ -10,9 +10,9 @@ File > New Project > Gradle > Select "Java", "Kotlin" -> ArtifactId = 新的專�
 
 com.github.chenFlyingkite
 
-
-1. **引用 library 使用的 project : 參考 [jitpack][1]**
-* 在 build.gradle 加上
+-----
+**若您的 MyProject 想要引用此函示庫,請完成下列步驟 : 參考 [jitpack][1]**
+1. * 在 build.gradle 加上
 ```gradle
 allprojects {
     repositories {
@@ -23,7 +23,7 @@ allprojects {
 }
 ```
 
-* 在 yourLib/build.gradle 加上
+2. * 在 MyProject/build.gradle 加上
 ```gradle
 dependencies { 
     ...
@@ -31,4 +31,5 @@ dependencies {
     api "com.github.chenFlyingkite:MyJava:1.0.0.0"
 }
 ```
+-----
 [1]: https://jitpack.io/
