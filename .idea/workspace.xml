@@ -341,7 +341,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>main|com.github.chenFlyingkite.MyJava</last-edited>
+          <last-edited>test|com.github.chenFlyingkite.MyJava</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -365,7 +365,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: org.codehaus.groovy:groovy-all:2.3.11</last-edited>
+          <last-edited>Gradle: com.google.code.gson:gson:2.8.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
